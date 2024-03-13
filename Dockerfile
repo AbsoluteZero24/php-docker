@@ -1,6 +1,6 @@
 # Use an official PHP runtime
-#FROM php:8.2-apache
-FROM php:5.6-apache
+FROM php:8.2-apache
+#FROM php:5.6-apache
 # Enable Apache modules
 RUN a2enmod rewrite
 # Install any extensions you need
